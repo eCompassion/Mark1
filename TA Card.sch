@@ -1,0 +1,400 @@
+EESchema Schematic File Version 2  date 5/13/2012 11:04:49 PM
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Jaguar
+LIBS:Mark1-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 3 3
+Title "Mark1 - TA Card Build"
+Date "14 may 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6200 3800 6100 3800
+Wire Wire Line
+	6200 900  6150 900 
+Wire Wire Line
+	3300 1300 3200 1300
+Wire Wire Line
+	3300 1000 3200 1000
+Wire Wire Line
+	3300 4300 3200 4300
+Wire Wire Line
+	3300 4000 3200 4000
+Wire Wire Line
+	6100 1800 6200 1800
+Wire Wire Line
+	6100 2000 6200 2000
+Wire Wire Line
+	6100 2200 6200 2200
+Wire Wire Line
+	4600 1300 4500 1300
+Wire Wire Line
+	4600 1500 4500 1500
+Wire Wire Line
+	4600 1700 4500 1700
+Wire Wire Line
+	4600 4800 4500 4800
+Wire Wire Line
+	4600 4600 4500 4600
+Wire Wire Line
+	4600 4400 4500 4400
+Wire Wire Line
+	4500 5000 4600 5000
+Wire Wire Line
+	4500 2000 4600 2000
+Wire Wire Line
+	4600 6200 4500 6200
+Wire Wire Line
+	4600 6000 4500 6000
+Wire Wire Line
+	3300 6200 3200 6200
+Wire Wire Line
+	3300 6000 3200 6000
+Wire Wire Line
+	6100 6200 6200 6200
+Wire Wire Line
+	6100 6000 6200 6000
+Wire Wire Line
+	7400 6200 7500 6200
+Wire Wire Line
+	7400 6000 7500 6000
+Wire Wire Line
+	4600 3200 4500 3200
+Wire Wire Line
+	4600 3000 4500 3000
+Wire Wire Line
+	7400 3200 7500 3200
+Wire Wire Line
+	7400 3000 7500 3000
+Wire Wire Line
+	3300 3200 3200 3200
+Wire Wire Line
+	3300 3000 3200 3000
+Wire Wire Line
+	6200 3200 6100 3200
+Wire Wire Line
+	6100 3000 6200 3000
+Wire Wire Line
+	1850 3850 1800 3850
+Wire Wire Line
+	1800 1050 1800 1000
+Wire Wire Line
+	1800 1000 1850 1000
+Wire Wire Line
+	1850 4050 1800 4050
+Wire Wire Line
+	1800 4050 1800 4100
+Wire Wire Line
+	1800 800  1850 800 
+Wire Wire Line
+	6100 2900 6200 2900
+Wire Wire Line
+	6200 3100 6100 3100
+Wire Wire Line
+	3300 2900 3200 2900
+Wire Wire Line
+	3300 3100 3200 3100
+Wire Wire Line
+	7400 2900 7500 2900
+Wire Wire Line
+	7400 3100 7500 3100
+Wire Wire Line
+	4600 2900 4500 2900
+Wire Wire Line
+	4600 3100 4500 3100
+Wire Wire Line
+	7400 5900 7500 5900
+Wire Wire Line
+	7400 6100 7500 6100
+Wire Wire Line
+	6100 5900 6200 5900
+Wire Wire Line
+	6100 6100 6200 6100
+Wire Wire Line
+	3300 5900 3200 5900
+Wire Wire Line
+	3300 6100 3200 6100
+Wire Wire Line
+	4600 5900 4500 5900
+Wire Wire Line
+	4600 6100 4500 6100
+Wire Wire Line
+	4500 1900 4600 1900
+Wire Wire Line
+	4500 4900 4600 4900
+Wire Wire Line
+	4600 4300 4500 4300
+Wire Wire Line
+	4600 4500 4500 4500
+Wire Wire Line
+	4600 4700 4500 4700
+Wire Wire Line
+	4600 1800 4500 1800
+Wire Wire Line
+	4600 1600 4500 1600
+Wire Wire Line
+	4600 1400 4500 1400
+Wire Wire Line
+	6100 2300 6200 2300
+Wire Wire Line
+	6100 2100 6200 2100
+Wire Wire Line
+	6100 1900 6200 1900
+Wire Wire Line
+	4500 4200 4600 4200
+Wire Wire Line
+	3300 4200 3200 4200
+Wire Wire Line
+	4600 1200 4500 1200
+Wire Wire Line
+	3300 1200 3200 1200
+Wire Wire Line
+	6200 800  6150 800 
+Wire Wire Line
+	6200 3900 6100 3900
+Text HLabel 6100 3800 0    40   Input ~ 0
+FuelPumpRelay-Out-2
+Text HLabel 6150 900  0    40   Input ~ 0
+CheckEngine-1
+Text HLabel 6100 3900 0    40   Input ~ 0
+CheckEngine-2
+Text HLabel 4600 4200 2    40   Input ~ 0
+TX-CPU2
+Text HLabel 3200 4000 0    40   Input ~ 0
+RX-CPU2
+Text HLabel 4600 1200 2    40   Input ~ 0
+TX-CPU1
+Text HLabel 3200 1000 0    40   Input ~ 0
+RX-CPU1
+Text HLabel 3200 4200 0    40   Input ~ 0
+PE1-CPUWakeup-2
+Text HLabel 3200 4300 0    40   Input ~ 0
+PE0-CPUWakeup-2
+Text HLabel 3200 1200 0    40   Input ~ 0
+PE1-CPUWakeup-1
+Text HLabel 3200 1300 0    40   Input ~ 0
+PE0-CPUWakeup-1
+Text HLabel 4600 4300 2    40   Input ~ 0
+Injector6-PT-2
+Text HLabel 4600 4400 2    40   Input ~ 0
+Injector5-PT-2
+Text HLabel 4600 4500 2    40   Input ~ 0
+Injector4-PT-2
+Text HLabel 4600 4600 2    40   Input ~ 0
+Injector3-PT-2
+Text HLabel 4600 4700 2    40   Input ~ 0
+Injector2-PT-2
+Text HLabel 4600 4800 2    40   Input ~ 0
+Injector1-PT-2
+Text HLabel 4600 1300 2    40   Input ~ 0
+Ignitor6-PT-1
+Text HLabel 4600 1400 2    40   Input ~ 0
+Ignitor5-PT-1
+Text HLabel 4600 1500 2    40   Input ~ 0
+Ignitor4-PT-1
+Text HLabel 4600 1600 2    40   Input ~ 0
+Ignitor3-PT-1
+Text HLabel 4600 1700 2    40   Input ~ 0
+Ignitor2-PT-1
+Text HLabel 4600 1800 2    40   Input ~ 0
+Ignitor1-PT-1
+Text HLabel 6100 1800 0    40   Input ~ 0
+Injector6-PB-1
+Text HLabel 6100 1900 0    40   Input ~ 0
+Injector5-PB-1
+Text HLabel 6100 2000 0    40   Input ~ 0
+Injector4-PB-1
+Text HLabel 6100 2100 0    40   Input ~ 0
+Injector3-PB-1
+Text HLabel 6100 2200 0    40   Input ~ 0
+Injector2-PB-1
+Text HLabel 6100 2300 0    40   Input ~ 0
+Injector1-PB-1
+Text HLabel 4600 4900 2    40   Input ~ 0
+CAS-Signal-2
+Text HLabel 4600 5000 2    40   Input ~ 0
+Crank-Signal-2
+Text HLabel 6150 800  0    40   Input ~ 0
+FuelPumpRelay-Out-1
+Text HLabel 4600 1900 2    40   Input ~ 0
+CAS-Signal-1
+Text HLabel 4600 2000 2    40   Input ~ 0
+Crank-Signal-1
+Text HLabel 7500 5900 2    40   Input ~ 0
+GNDLift-Signal
+Text HLabel 7500 6000 2    40   Input ~ 0
+AccLift-Signal
+Text HLabel 7500 6100 2    40   Input ~ 0
+AccVMON-Signal
+Text HLabel 7500 6200 2    40   Input ~ 0
+ConstantVMON-Signal
+Text HLabel 3200 5900 0    40   Input ~ 0
+MAP-A-Signal
+Text HLabel 3200 6000 0    40   Input ~ 0
+AAP-Signal
+Text HLabel 3200 6100 0    40   Input ~ 0
+BatteryRef-Signal
+Text HLabel 6100 6000 0    40   Input ~ 0
+HeatSyncTemp-Signal
+Text HLabel 6100 6100 0    40   Input ~ 0
+EGo2-B-Signal
+Text HLabel 6100 6200 0    40   Input ~ 0
+MAP-B-Signal
+Text HLabel 3200 6200 0    40   Input ~ 0
+MAT-Signal
+Text HLabel 6100 5900 0    40   Input ~ 0
+MAF-Signal
+Text HLabel 4600 5900 2    40   Input ~ 0
+IAT-Signal
+Text HLabel 4600 6000 2    40   Input ~ 0
+CoolantTemp-Signal
+Text HLabel 4600 6100 2    40   Input ~ 0
+TPS-Signal
+Text HLabel 4600 6200 2    40   Input ~ 0
+EGo2-A-Signal
+Text HLabel 7500 3200 2    40   Input ~ 0
+ConstantVMON-Signal
+Text HLabel 7500 3100 2    40   Input ~ 0
+AccVMON-Signal
+Text HLabel 7500 3000 2    40   Input ~ 0
+AccLift-Signal
+Text HLabel 7500 2900 2    40   Input ~ 0
+GNDLift-Signal
+Text HLabel 6100 2900 0    40   Input ~ 0
+MAF-Signal
+Text HLabel 3200 3200 0    40   Input ~ 0
+MAT-Signal
+Text HLabel 6100 3200 0    40   Input ~ 0
+MAP-B-Signal
+Text HLabel 6100 3100 0    40   Input ~ 0
+EGo2-B-Signal
+Text HLabel 6100 3000 0    40   Input ~ 0
+HeatSyncTemp-Signal
+Text HLabel 3200 3100 0    40   Input ~ 0
+BatteryRef-Signal
+Text HLabel 3200 3000 0    40   Input ~ 0
+AAP-Signal
+Text HLabel 3200 2900 0    40   Input ~ 0
+MAP-A-Signal
+Text HLabel 4600 3200 2    40   Input ~ 0
+EGo2-A-Signal
+Text HLabel 4600 3100 2    40   Input ~ 0
+TPS-Signal
+Text HLabel 4600 3000 2    40   Input ~ 0
+CoolantTemp-Signal
+Text HLabel 4600 2900 2    40   Input ~ 0
+IAT-Signal
+$Comp
+L GND #PWR?
+U 1 1 4F8DDC47
+P 1800 4100
+F 0 "#PWR?" H 1800 4100 30  0001 C CNN
+F 1 "GND" H 1800 4030 30  0001 C CNN
+	1    1800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8DDC3D
+P 1800 1050
+F 0 "#PWR?" H 1800 1050 30  0001 C CNN
+F 1 "GND" H 1800 980 30  0001 C CNN
+	1    1800 1050
+	1    0    0    -1  
+$EndComp
+Text HLabel 1800 3850 0    40   Input ~ 0
+5vdc-digital
+Text HLabel 1800 800  0    40   Input ~ 0
+5vdc-digital
+$Comp
+L CONN_2 P?
+U 1 1 4F8DDA20
+P 2200 3950
+F 0 "P?" V 2150 3950 40  0000 C CNN
+F 1 "CONN_2" V 2250 3950 40  0000 C CNN
+	1    2200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L H2 P?
+U 1 1 4F8DD9E4
+P 6800 5000
+F 0 "P?" H 6800 6300 60  0000 C CNN
+F 1 "H2" V 6800 5000 50  0000 C CNN
+	1    6800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L H1 P?
+U 1 1 4F8DD9B0
+P 3900 5000
+F 0 "P?" H 3900 6300 60  0000 C CNN
+F 1 "H1" V 3900 5000 50  0000 C CNN
+	1    3900 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L H2 P?
+U 1 1 4F8DD989
+P 6800 2000
+F 0 "P?" H 6800 3300 60  0000 C CNN
+F 1 "H2" V 6800 2000 50  0000 C CNN
+	1    6800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L H1 P?
+U 1 1 4F8DD97D
+P 3900 2000
+F 0 "P?" H 3900 3300 60  0000 C CNN
+F 1 "H1" V 3900 2000 50  0000 C CNN
+	1    3900 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P?
+U 1 1 4F8DD966
+P 2200 900
+F 0 "P?" V 2150 900 40  0000 C CNN
+F 1 "CONN_2" V 2250 900 40  0000 C CNN
+	1    2200 900 
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
